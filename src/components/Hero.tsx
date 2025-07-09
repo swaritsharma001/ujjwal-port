@@ -62,11 +62,12 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 z-10 grid lg:grid-cols-2 gap-12 items-center">
+        
         {/* Text Content */}
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
             <div className="inline-block">
-              <span className="text-cyber-green font-mono text-lg"></span>
+              <span className="text-cyber-green font-mono text-lg">&gt; Hello World</span>
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
               <span className="block">I'm a</span>
@@ -91,7 +92,7 @@ const Hero = () => {
             ))}
           </div>
 
-          {/* CTA Buttons 
+          {/* CTA Buttons */}
           <div className="flex gap-4">
             <Button 
               size="lg" 
@@ -108,7 +109,7 @@ const Hero = () => {
             </Button>
           </div>
         </div>
-*/}
+
         {/* Optimized 3D Model */}
         <div className="relative">
           <div className="relative w-full h-[600px] rounded-2xl overflow-hidden">
