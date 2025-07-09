@@ -66,7 +66,8 @@ const Hero = () => {
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
             <div className="inline-block">
-        
+              <span className="text-cyber-green font-mono text-lg"></span>
+            </div>
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
               <span className="block">I'm a</span>
               <span className="gradient-text text-glow">Full Stack</span>
